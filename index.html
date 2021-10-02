@@ -16,10 +16,10 @@
             <div class="customer_details">
                 <fieldset id="field">
                     <legend><span id="top">Customer Details</span></legend>
-                    <form>
-                        <label for="cname">Customer Name* :&nbsp;</label> <input type="text" name="cname" required/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <label for="cph">Contact No.* :&nbsp; </label><input type="tel" name="cph" maxlength="13" required/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <label for="cmail">Email Id :&nbsp;</label><input type="email" name="cmail">
+                    <form id="#customerform">
+                        <div><label for="cname">Customer Name* :&nbsp;</label> <input type="text" name="cname" required/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <div><label for="cph">Contact No.* :&nbsp; </label><input type="tel" name="cph" maxlength="13" required/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                        <div><label for="cmail">Email Id :&nbsp;</label><input type="email" name="cmail"></div>
                     </form>
                 </fieldset>
             </div>
@@ -27,6 +27,7 @@
                 <fieldset id="field">
                     <legend><span id="top">Product Details</span></legend>
                     <form>
+                        <div id="formbody">
                         <label for="pctg">Product Category :&nbsp;</label>
                         <select id="select">
                             <option>c1</option>
@@ -36,6 +37,7 @@
                         <label for="pname">Product Name :&nbsp;</label><input type="select" name="pname"> <br><br>
                         <label for="prate">Rate : &nbsp;</label><input type="number" name="prate"><br><br>
                         <label for="pqty">Quantity :&nbsp;</label><input type="number" name="pqty"> <br><br>
+                        </div>
                         <div class="buttonArea">
                             <button>Add Item</button>
                             <button>Generate Bill</button>
