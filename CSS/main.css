@@ -88,14 +88,13 @@ body{
 @media screen and (max-width:768px){
     .heading h1{
         font-size: 30px;
-        text-shadow: 1px 1px white,3px 2px 3px black,-1px -1px 3px black; ;
     }
     .customer_details form{
         display: block;
     }
     .product_details #formbody{
         margin-left: 0;
-        
+        width: 100%;
     }
     .customer_details form,.product_details form{
         font-size: 15px;
